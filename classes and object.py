@@ -27,6 +27,14 @@ person3.age = 23
 person3.height = '5 ft'
 person3.weight = '65kg'
 
+#creating person4 object
+person4 = person()
+person4.name = 'ajay'
+person4.age = 24
+person4.height = '6 ft'
+person4.weight = '45kg'
+
 print(f'{person1.name} is {person1.age} years old, height is {person1.height} and weight is {person1.weight}')
 print(f'{person2.name} is {person2.age} years old, height is {person2.height} and weight is {person2.weight}')
 print(f'{person3.name} is {person3.age} years old, height is {person3.height} and weight is {person3.weight}')
+print(f'{person4.name} is {person4.age} years old, height is {person4.height} and weight is {person4.weight}')
